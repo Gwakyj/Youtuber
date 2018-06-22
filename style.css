@@ -1,0 +1,368 @@
+* {margin:0; padding: 0;}
+
+body{
+	background-color: #3a3434;
+}
+
+nav {
+	width: 1400px; height: 100px; 
+	margin: auto; z-index: 9999; 
+	 position: absolute;  
+	 text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+/*footer*/
+footer{
+	position: relative;
+	width: 100%;
+}
+
+A:link {
+	text-decoration: none;
+	font-family: "yoon";
+	font-color: #3a3434;}
+
+A:link    {color:#3a3434;text-decoration:none;} /* 아직 방문하지 않은경우 */
+A:visited {color:#3a3434; text-decoration:none; } /* 한번 이상 방문한 링크 처리 */
+A:active  {color:#3a3434; text-decoration:none; }/* 마우스로 클릭하는 순간 */
+A:hover  {color:#3a3434; text-decoration:none; } /* 마우스 링크 위 올려 놓았을때 */
+
+.bottom {
+	position: relative;
+	background-color: rgba(185,183,165,0.3);
+	height: 200px; width: 100%;
+}
+
+.p{
+	float: left;
+	position: relative;
+	/*background-color: red;*/
+	font-family: "hel"; font-size: 1.5em;
+	color: #3a3434;
+	top: 50px; left: 230px;
+	width: 100px;
+}
+#p{
+	position: absolute;
+	/*background-color: red;*/
+	font-family: "yoon"; font-size: 0.6em;
+	color: #3a3434;
+	top: 50px; left: 0px;
+	width: 300px;
+	line-height: 1.9em;
+}
+
+.p1{
+	float: left;
+	position: relative;
+	/*background-color: red;*/
+	font-family: "hel"; font-size: 1.5em;
+	color: #3a3434;
+	top: 50px; left: 430px;
+	width: 100px;
+}
+
+#p1 {
+	float: left;
+	position: relative;
+	font-family: "yoon"; font-size: 0.6em;
+	color: #3a3434;
+	top: 0px; left: 150px;
+	width:50px;
+	line-height: 1.9em;
+
+}
+
+#p2{
+	float: left;
+	position: absolute;
+	font-family: "yoon"; font-size: 0.6em;
+	color: #3a3434;
+	top: 0px; left: 300px;
+	width: 400px;
+	line-height: 1.9em;
+}
+
+#p3{
+	float: left;
+	position: absolute;
+	font-family: "yoon"; font-size: 0.6em;
+	color: #3a3434;
+	top: 0px; left: 430px;
+	width: 50px;
+	line-height: 1.9em;
+}
+
+.p4{
+	float: right;
+	position: relative;
+	font-family: "hel"; font-size: 1.0em;
+	color: #3a3434;
+	right: 300px; top: 100px;
+	width: 50px;
+}
+
+/*footer*/
+
+.back {
+	margin: auto;
+}
+
+
+.main ul {
+	list-style: none;
+	 float: right; 
+	 font-family: "bodoni", serif; 
+	 padding-right: 100px; padding-top: 50px;
+}
+
+.main il a {
+	font-weight: bold; font-size: 1.3em;
+	text-decoration: none; 
+	font-family: "bodoni", serif; 
+	color: #e7e3cd; padding: 25px;
+}
+
+.main ul {
+	list-style: none;
+	 float: right; 
+	 font-family: "bodoni", serif; 
+	 padding-right: 100px; padding-top: 50px;
+}
+
+.main il a:hover {color: #868370;}
+
+#back1{ 
+	background: url('./img/back.png'); 
+	background-size: 100% auto; 
+	width:1519px; height: 2575px; 
+}
+
+#logo {
+	width: 60px; height: 54px; 
+	float: left; 
+	padding-top: 30px; padding-left: 120px;
+}
+
+.container {
+	max-width: 1920px; 
+	height: 2575px; 
+	position:relative;
+	 overflow: hidden;
+}
+
+.contain1 { 
+	z-index: 9997;
+	position: absolute; 
+	width: 100%; 
+	animation:fadeInDown 3s,1;
+}
+
+.his{
+	z-index: 9998;
+	position: absolute;
+	width: 600px; height: 207px;
+	top:400px; left: 50%; transform: translate(-50%);
+
+}
+
+.box{
+	/*background-color: red;*/
+	visibility: hidden;
+	position: relative;
+	top: 760px; left: 50%; transform: translate(-50%);
+	width: 900px; height: 1500px;
+}
+
+.box.shown{
+	visibility: visible;
+	animation: slideInUp, 2s,1
+}
+
+.t {
+	float: left;
+	background-color: #b9b8a3;
+	width: 300px; height: 320px;
+	position: absolute;
+	top:10px; left: 30px;
+}
+
+
+
+.text {
+	float: left;
+	/*background-color: yellow;*/
+	width: 500px; height: 320px;
+	position: absolute;
+	top:10px; left: 370px;
+	font-family: "yoon30"; font-size: 0.9em;
+	font-weight: 200;
+	line-height: 1.7em;
+	color: #e7e3cd;
+}
+
+.tx{
+	padding-top: 120px;
+	padding-bottom: 10px; 
+	font-family: "yoon";
+	 font-size: 1.3em;
+	line-height: 1.7em;
+}
+
+.t2 {
+	
+	float: left;
+	background-color: #b9b8a3;
+	width: 300px; height: 320px;
+	position: absolute;
+	top:380px; left: 570px;
+}
+
+.text2 {
+	font-weight: 200;
+	float: left;
+	/*background-color: yellow;*/
+	width: 500px; height: 320px;
+	position: absolute;
+	top:380px; left: 30px;
+	font-family: "yoon30"; font-size: 0.9em;
+	line-height: 1.7em;
+	color: #e7e3cd;
+	
+}
+
+.t3 {
+	float: left;
+	background-color: #b9b8a3;
+	width: 300px; height: 320px;
+	position: absolute;
+	top:750px; left: 30px;
+}
+
+.text3 {
+	font-weight: 200;
+	float: left;
+	/*background-color: yellow;*/
+	width: 500px; height: 320px;
+	position: absolute;
+	top:750px; left: 370px;
+	font-family: "yoon30"; font-size: 0.9em;
+	line-height: 1.7em;
+	color: #e7e3cd;
+}
+
+.t4 {
+	float: left;
+	background-color: #b9b8a3;
+	width: 300px; height: 320px;
+	position: absolute;
+	top:1120px; left: 570px;
+}
+
+.text4 {
+	font-weight: 200;
+	float: left;
+	/*background-color: yellow;*/
+	width: 500px; height: 320px;
+	position: absolute;
+	top:1120px; left: 30px;
+	font-family: "yoon30"; font-size: 0.9em;
+	line-height: 1.7em;
+	color: #e7e3cd;
+	
+}
+
+.m{
+	position: absolute;
+	top:50%; margin-top: -120px;	
+	left: 50%; margin-left: -120px;
+	width: 240px; height: 240px;
+}
+
+.m:hover {
+	transition-delay: 0.5s;
+	transition-timing-function: 2s;
+	transform:scale(1.5,1.5);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 1400px;
+}
+
+
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+@font-face {font-family: "hel"; src:url("./font/hel.otf") format("opentype");}
+@font-face {font-family: "yoon"; src:url("./font/yoon.otf") format("opentype"); }
+@font-face {font-family: "bodoni"; src:local, url("/font/bodoni.ttf") format("truetype");}
+@font-face {font-family: "yoon30"; src:local, url("/font/yoon30.ttf") format("truetype");}
